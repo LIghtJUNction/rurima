@@ -1375,7 +1375,7 @@ int rurima_docker_search_arch(char *_Nonnull image, char *_Nonnull tag, char *_N
 	free(tmp);
 	return 0;
 }
-void rurima_docker_print_config_from_json(const char *_Nonnull config, const char *_Nonnull savedir)
+void rurima_docker_print_config_from_json(char *_Nonnull config, char *_Nonnull savedir)
 {
 	/*
 	 * For load subcommand.
